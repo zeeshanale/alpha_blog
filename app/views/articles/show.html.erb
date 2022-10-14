@@ -1,8 +1,13 @@
 
-<h1>This page is showing articles.</h1>
+<h1>Article Show Page</h1>
 
 <p><strong>Title: </strong><%= @article.title%></p>
 <p><strong>Description: </strong><%= @article.description%></p>
 
+<p>
+    <%= link_to 'Edit', edit_article_path(@article) %> | <%= link_to 'Delete', article_path(@article), method: :delete, data: {confirm: "Are you sure?"}  %>
+</p>
+
+<%= link_to 'Show all articles', articles_path %>
 
 
