@@ -1,0 +1,49 @@
+@import 'bootstrap/dist/css/bootstrap';
+
+
+
+.navbar {
+    background-color: black !important;
+}
+
+.nav-link {
+    color: white !important;
+}
+  
+#logo {
+float: left;
+font-size: 1.7em;
+color: #fff;
+text-transform: uppercase;
+letter-spacing: -1px;
+font-weight: bold;
+}
+  
+
+#home-container{
+    margin-top: 30px;
+}
+
+#page-content{
+    background-color: lightgrey;
+}
+
+#jumbo-bg{
+    background-image: asset-url('jumbo-copy.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+#sticky-footer{
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+     /* Height of the footer */
+}
+
+#art-card{
+    margin: 0;
+    padding: 0;
+}
