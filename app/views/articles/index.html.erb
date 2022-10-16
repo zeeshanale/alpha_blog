@@ -1,7 +1,16 @@
 <h2 class="text-center mt-4">All Articles</h2>
 
+
 <%= render 'article' %>
 
+
+<div class="apple_pagination">
+    <!-- <div class="page_info">
+      <%= page_entries_info @articles %>
+    </div> -->
+    
+    <%= will_paginate @articles, class:"text-center" %>    
+</div>
 
 
 
